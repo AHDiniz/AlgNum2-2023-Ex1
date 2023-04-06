@@ -1,4 +1,4 @@
-files = {"bcsstm02", "gre_115", "dw1024"};
+files = {"bcsstm02", "gre_115", "1138_bus"};
 tol = cell(3, 1);
 max_iter = cell(3, 1);
 omega = cell(3, 1);

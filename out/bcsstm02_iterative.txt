@@ -5,6 +5,6 @@ Omega: 0.800000
 Jacobi iterations: 2
 Seidel iterations: 2
 SOR iterations: 7
-Jacobi elapsed time: 0.000118
-Seidel elapsed time: 7.8e-05
-SOR elapsed time: 0.000308
+Jacobi elapsed time: 0
+Seidel elapsed time: 0
+SOR elapsed time: 0

@@ -27,12 +27,24 @@ function iterative_method_test (A, file_name, tol, nmaxiter, omega)
     
     iter = max([iter_jacobi, iter_seidel, iter_sor]);
 
-    resize(er_jacobi, [iter 1]);
-    resize(er_seidel, [iter 1]);
-    resize(er_sor, [iter 1]);
+    er_jacobi_resize = zeros(iter, 1);
+    for i = 1 : iter
+        er_jacobi_resize(i) = er_jacobi(i);
+    end
+
+    er_seidel_resize = zeros(iter, 1);
+    for i = 1 : iter
+        er_seidel_resize(i) = er_seidel(i);
+    end
+
+    er_sor_resize = zeros(iter, 1);
+    for i = 1 : iter
+        er_sor_resize(i) = er_sor(i);
+    end
+
 
     hf = figure();
-    plot(1:iter, log(er_jacobi), "r", 1:iter, log(er_seidel), "g", 1:iter, log(er_sor), "b");
+    plot(1:iter, log(er_jacobi_resize), "r", 1:iter, log(er_seidel_resize), "g", 1:iter, log(er_sor_resize), "b");
     
     xlabel("Número de iterações");
     ylabel("Erro");

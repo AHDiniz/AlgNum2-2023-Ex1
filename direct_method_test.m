@@ -1,4 +1,4 @@
-function direct_method_test (A, file_name):
+function direct_method_test (A, file_name)
     [L, U, P, Q] = lu(A);
 
     n = rows(A);
@@ -34,7 +34,7 @@ function direct_method_test (A, file_name):
     out_data = fopen(strcat("out/", file_name, "_direct.txt"), "w");
 
     fprintf(out_data, "Matrix : %s\n", file_name);
-    fprintf(out_data, "n: %f\n", n);
+    fprintf(out_data, "n: %d\n", n);
     fprintf(out_data, "Fill rate: %f\n", fill_rate);
     fprintf(out_data, "Solution error: %f\n", solution_error);
     fprintf(out_data, "Matrix error: %f\n", matrix_error);

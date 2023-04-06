@@ -1,4 +1,4 @@
-function iterative_method_test (A, file_name, tol, nmaxiter, omega):
+function iterative_method_test (A, file_name, tol, nmaxiter, omega)
     n = rows(A);
 
     b = A * ones(n, 1);
@@ -11,7 +11,7 @@ function iterative_method_test (A, file_name, tol, nmaxiter, omega):
 
     fprintf(out_data, "Matrix: %s\n", file_name);
     
-    fprintf(out_data, "n: %f\n", n);
+    fprintf(out_data, "n: %d\n", n);
     fprintf(out_data, "Tolerance: %f\n", tol);
     fprintf(out_data, "Omega: %f\n", omega);
     
@@ -27,12 +27,12 @@ function iterative_method_test (A, file_name, tol, nmaxiter, omega):
     
     iter = max([iter_jacobi, iter_seidel, iter_sor]);
 
-    resize(er_jacobi, iter, 1);
-    resize(er_seidel, iter, 1);
-    resize(er_sor, iter, 1);
+    resize(er_jacobi, [iter 1]);
+    resize(er_seidel, [iter 1]);
+    resize(er_sor, [iter 1]);
 
     hf = figure();
-    plot(1 : iter, log(er_jacobi), "r", 1 : iter, log(er_seidel), "g", 1 : iter, log(er_sor), "b");
+    plot(1:iter, log(er_jacobi), "r", 1:iter, log(er_seidel), "g", 1:iter, log(er_sor), "b");
     
     xlabel("Número de iterações");
     ylabel("Erro");

@@ -1,0 +1,3 @@
+Matrix : bcsstm02
+Determinant: 0.000000
+Is diag. dom.: TRUE

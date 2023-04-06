@@ -1,0 +1,7 @@
+Matrix : gre_115
+n: 115
+Fill rate: 71.360544
+Solution error: 0.000000
+Matrix error: 1.815219
+Residual norm: 0.000000
+Conditioning: 49.670941

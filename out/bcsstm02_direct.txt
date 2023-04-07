@@ -3,5 +3,6 @@ n: 66
 Fill rate: 50.000000
 Solution error: 0.000000
 Matrix error: 0.000000
+b error: 0.000000
 Residual norm: 0.000000
 Conditioning: 8.752170

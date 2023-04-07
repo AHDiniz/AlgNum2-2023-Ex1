@@ -7,4 +7,4 @@ Seidel iterations: 2
 SOR iterations: 7
 Jacobi elapsed time: 0
 Seidel elapsed time: 0
-SOR elapsed time: 0
+SOR elapsed time: 0.001

@@ -2,6 +2,7 @@ Matrix : 1138_bus
 n: 1138
 Fill rate: 37.917305
 Solution error: 0.000000
-Matrix error: 1.137016
+Matrix error: 2.000000
+b error: 0.000000
 Residual norm: 0.000000
 Conditioning: 8572645.586647

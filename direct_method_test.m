@@ -25,7 +25,9 @@ function direct_method_test (A, file_name)
 
     solution_error = norm(solution - x, inf) / norm(x, inf);
 
-    matrix_error = norm(A - P * L * U, inf) / norm(A, inf);
+    matrix_error = norm(P * A - L * U, inf) / norm(A, inf);
+
+    b_error = norm(A * (solution - x), inf) / norm(b, inf);
 
     residual_norm = norm(b - A * x, inf);
 
@@ -38,6 +40,7 @@ function direct_method_test (A, file_name)
     fprintf(out_data, "Fill rate: %f\n", fill_rate);
     fprintf(out_data, "Solution error: %f\n", solution_error);
     fprintf(out_data, "Matrix error: %f\n", matrix_error);
+    fprintf(out_data, "b error: %f\n", b_error);
     fprintf(out_data, "Residual norm: %f\n", residual_norm);
     fprintf(out_data, "Conditioning: %f\n", conditioning);
 

@@ -1,0 +1,10 @@
+Matrix: steam3
+n: 80
+Tolerance: 0.000001
+Omega: 0.800000
+Jacobi iterations: 71
+Seidel iterations: 24
+SOR iterations: 21
+Jacobi elapsed time: 0.002
+Seidel elapsed time: 0.001
+SOR elapsed time: 0

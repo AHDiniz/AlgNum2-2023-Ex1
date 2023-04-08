@@ -1,0 +1,3 @@
+Matrix : 494_bus
+Determinant: Inf
+Is diag. dom.: FALSE

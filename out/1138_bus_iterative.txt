@@ -1,10 +1,10 @@
 Matrix: 1138_bus
 n: 1138
 Tolerance: 0.000100
-Omega: 0.800000
+Omega: 0.400000
 Jacobi iterations: 210
 Seidel iterations: 352
-SOR iterations: 209
-Jacobi elapsed time: 5.092
-Seidel elapsed time: 10.583
-SOR elapsed time: 5.356
+SOR iterations: 170
+Jacobi elapsed time: 3.252
+Seidel elapsed time: 6.138
+SOR elapsed time: 2.558

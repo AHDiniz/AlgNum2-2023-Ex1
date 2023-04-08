@@ -1,0 +1,10 @@
+Matrix: 494_bus
+n: 494
+Tolerance: 0.000010
+Omega: 0.800000
+Jacobi iterations: 2000
+Seidel iterations: 2000
+SOR iterations: 2000
+Jacobi elapsed time: 3.676
+Seidel elapsed time: 5.51
+SOR elapsed time: 4.877

@@ -1,0 +1,8 @@
+Matrix : steam3
+n: 80
+Fill rate: 23.970944
+Solution error: 0.000000
+Matrix error: 2.000000
+b error: 0.000000
+Residual norm: 0.000001
+Conditioning: 49936859688.616783

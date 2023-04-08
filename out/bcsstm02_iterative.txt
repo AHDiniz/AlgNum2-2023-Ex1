@@ -1,10 +1,10 @@
 Matrix: bcsstm02
 n: 66
-Tolerance: 0.000100
-Omega: 0.800000
+Tolerance: 0.000001
+Omega: 1.200000
 Jacobi iterations: 2
 Seidel iterations: 2
-SOR iterations: 7
+SOR iterations: 10
 Jacobi elapsed time: 0
 Seidel elapsed time: 0
-SOR elapsed time: 0.001
+SOR elapsed time: 0

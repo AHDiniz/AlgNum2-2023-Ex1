@@ -1,0 +1,8 @@
+Matrix : 494_bus
+n: 494
+Fill rate: 41.089109
+Solution error: 0.000000
+Matrix error: 2.000000
+b error: 0.000000
+Residual norm: 0.000000
+Conditioning: 2415411.017448

@@ -1,0 +1,3 @@
+Matrix : steam3
+Determinant: Inf
+Is diag. dom.: FALSE
